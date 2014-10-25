@@ -1,0 +1,16 @@
+message: This is a message defined in the configuration file config.yaml.
+messageRepetitions: 3
+database:
+   driverClass: com.mysql.jdbc.Driver
+   user: phonebookuser
+   password: phonebookpassword
+   url: jdbc:mysql://localhost/phonebook
+server:
+    applicationConnectors:
+        - type: http
+          # The port the application will listen on
+          port: 8181
+    adminConnectors:
+        - type: http
+          # The admin port
+          port: 8282

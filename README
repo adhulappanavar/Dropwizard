@@ -1,0 +1,9 @@
+README file for the code that accompanies RESTful Web Services with Dropwizard.
+
+* The code is split in chapters, starting from Chapter 2.
+
+* The structure of this package is the one described in the book.
+
+* Each chapter folder (apart from the one for Appendix B) contains all files up to this chapter. For instance, if you follow the steps on the book, at the end of chapter 5 your application's code should be the same as the one included in the folder for chapter 5.
+
+* As declared in the pom.xml file, we used Dropwizard v0.7.0-SNAPSHOT for the needs of the book, obtained from Sonatype Snapshots repository (http://oss.sonatype.org/content/repositories/snapshots), since only an old version is available on Maven Central Repository. It is likely that in the future, Dropwizard's components/packages will also be available from Maven Central, or hosted elsewere. Such changes on the source of the binaries are usually announce on the Dropwizard-User forum (https://groups.google.com/forum/#!forum/dropwizard-user) or Dropwizard's homepage (http://dropwizard.io).
